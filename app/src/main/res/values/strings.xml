@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SayHi</string>
+    <string name="sign_in">Sign In</string>
+    <string name="using_phone_number">Using phone Number</string>
+    <string name="enter_phone_number_to_register">Enter phone number to Register</string>
+    <string name="sayhi_will_send_otp_on_your_phone_number_for_verification">SayHi will send OTP on your phone number for verification</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="log_in">Log in.</string>
+    <string name="already_have_account">Already have account?</string>
+    <string name="Continue">Continue</string>
+    <string name="_923123456789">+923123456789</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="enter_the_otp_to_verify_your_phone_number">Enter the OTP to Verify your phone number</string>
+    <string name="verify">Verify</string>
+    <string name="didn_t_receive_otp">Didn\'t Receive OTP?</string>
+    <string name="resend">Resend.</string>
+    <string name="create_a_new_password">Create a new Password</string>
+    <string name="your_password_at_least_have_8_character">Your password at least have 8 character</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+</resources>
