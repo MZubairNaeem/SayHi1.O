@@ -1,9 +1,5 @@
 package com.example.sayhi;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
@@ -13,17 +9,32 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
+import com.google.firebase.FirebaseException;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.PhoneAuthCredential;
+import com.google.firebase.auth.PhoneAuthOptions;
+import com.google.firebase.auth.PhoneAuthProvider;
+
 import java.util.Objects;
+import java.util.concurrent.TimeUnit;
 
 public class newAcc extends AppCompatActivity implements View.OnClickListener{
 
     EditText phoneBox ;
-    String number;
+    FirebaseAuth mAuth;
+    TextView userPhoneNumber;
+    String number,verificationID;
+
+
     @SuppressLint("NonConstantResourceId")
     @Override
     public void onClick(@NonNull View v) {
         switch (v.getId()){
-            case R.id.continueButton:
+            case R.id.generateOTPBtn:
                 continueButton();
                 break;
 
@@ -57,7 +68,7 @@ public class newAcc extends AppCompatActivity implements View.OnClickListener{
 
         Objects.requireNonNull(getSupportActionBar()).hide();
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("Create a new Account");
         toolbar.setTitleTextColor(Color.WHITE);
         toolbar.setNavigationIcon(R.drawable.ic_baseline_navigate_before_24);
@@ -67,7 +78,9 @@ public class newAcc extends AppCompatActivity implements View.OnClickListener{
         logIn.setOnClickListener(this);
 
         phoneBox = findViewById(R.id.phoneBox);
-        Button continueButton = findViewById(R.id.continueButton);
+        Button continueButton = findViewById(R.id.generateOTPBtn);
         continueButton.setOnClickListener(this);
+
+
     }
 }

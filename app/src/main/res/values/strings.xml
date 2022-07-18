@@ -18,4 +18,10 @@
     <string name="your_password_at_least_have_8_character">Your password at least have 8 character</string>
     <string name="password">Password</string>
     <string name="confirm_password">Confirm Password</string>
+
+    <string name="facebook_app_id">374606418072819</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">374606418072819</string>
+
+
 </resources>

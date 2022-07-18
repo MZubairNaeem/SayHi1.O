@@ -12,4 +12,7 @@
     <color name="indigo700">#303F9F</color>
     <color name="indigo100">#C5CAE9</color>
     <color name="clr_grey_text">#757575</color>
+    <color name="blue">#0583D2</color>
+    <color name="scndblue">#16558F</color>
+    <color name="red">#E50914</color>
 </resources>
