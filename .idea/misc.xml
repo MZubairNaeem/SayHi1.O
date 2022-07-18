@@ -43,12 +43,14 @@
         <entry key="..\:/Mobile App Developement/Android_Project/SayHi/app/src/main/res/drawable/animated_input.xml" value="0.1935" />
         <entry key="..\:/Mobile App Developement/Android_Project/SayHi/app/src/main/res/drawable/custom_phone_icon.xml" value="0.1935" />
         <entry key="..\:/Mobile App Developement/Android_Project/SayHi/app/src/main/res/drawable/focused_pass_iocn.xml" value="0.1935" />
+        <entry key="..\:/Mobile App Developement/Android_Project/SayHi/app/src/main/res/drawable/ic_facebook.xml" value="0.1935" />
+        <entry key="..\:/Mobile App Developement/Android_Project/SayHi/app/src/main/res/drawable/ic_google.xml" value="0.1935" />
         <entry key="..\:/Mobile App Developement/Android_Project/SayHi/app/src/main/res/drawable/navigate_next.xml" value="0.1935" />
         <entry key="..\:/Mobile App Developement/Android_Project/SayHi/app/src/main/res/drawable/phone_focused.xml" value="0.1935" />
         <entry key="..\:/Mobile App Developement/Android_Project/SayHi/app/src/main/res/drawable/ripple_btn.xml" value="0.1935" />
         <entry key="..\:/Mobile App Developement/Android_Project/SayHi/app/src/main/res/drawable/rounded_layout.xml" value="0.1935" />
         <entry key="..\:/Mobile App Developement/Android_Project/SayHi/app/src/main/res/layout/activity_profile_settings.xml" value="0.25" />
-        <entry key="..\:/Mobile App Developement/Android_Project/SayHi/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/Mobile App Developement/Android_Project/SayHi/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
       </map>
     </option>
   </component>
