@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.SayHi" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/indigo500</item>
+        <item name="colorPrimary">@color/blue</item>
         <item name="colorPrimaryVariant">@color/blue</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -13,4 +13,10 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+<!--    <style name="Theme.SayHi." parent="Theme.MaterialComponents.*">-->
+<!--        <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView.Colored</item>-->
+<!--        <item name="colorPrimary">@color/blue</item>-->
+<!--        <item name="colorOnPrimary">@color/clr_grey_text</item>-->
+<!--    </style>-->
 </resources>

@@ -71,7 +71,7 @@
                 android:paddingBottom="10dp"
                 android:scrollbarAlwaysDrawHorizontalTrack="true"
                 android:singleLine="true"
-                android:textColor="@color/indigo700"
+                android:textColor="@color/blue"
                 android:textColorHint="@color/clr_grey_text"
                 android:textCursorDrawable="@drawable/text_cursor" />
 
@@ -93,7 +93,7 @@
                 android:paddingBottom="10dp"
                 android:scrollbarAlwaysDrawHorizontalTrack="true"
                 android:singleLine="true"
-                android:textColor="@color/indigo700"
+                android:textColor="@color/blue"
                 android:textColorHint="@color/clr_grey_text"
                 android:textCursorDrawable="@drawable/text_cursor" />
 
@@ -176,6 +176,7 @@
                         app:srcCompat="@drawable/ic_google" />
 
                     <TextView
+                        android:id="@+id/googleLogin"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"

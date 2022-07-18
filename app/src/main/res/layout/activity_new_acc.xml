@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/indigo100"
+    android:background="@color/black"
     tools:context=".newAcc">
 
     <include
@@ -35,7 +35,7 @@
             android:text="@string/enter_phone_number_to_register"
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -47,7 +47,7 @@
             android:textSize="15sp"
             android:text="@string/sayhi_will_send_otp_on_your_phone_number_for_verification"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/black" />
+            android:textColor="@color/white" />
     </LinearLayout>
 
 
@@ -69,7 +69,7 @@
             android:layout_height="wrap_content"
             android:minHeight="48dp"
             android:layout_gravity="center"
-            android:background="@drawable/animated_input"
+            android:background="@drawable/textboxoutline"
             android:drawableStart="@drawable/custom_phone_icon"
             android:drawablePadding="10dp"
             android:ems="10"
@@ -79,7 +79,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:singleLine="true"
-            android:textColor="@color/indigo700"
+            android:textColor="@color/blue"
             android:textColorHint="@color/clr_grey_text"
             android:textCursorDrawable="@drawable/text_cursor"
             android:autofillHints=""
@@ -110,7 +110,7 @@
                 android:layout_height="match_parent"
                 android:text="@string/already_have_account"
                 android:textSize="18sp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 />
 
             <TextView
@@ -121,7 +121,7 @@
                 android:text="@string/log_in"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textSize="18sp"
-                android:textColor="@color/indigo700"
+                android:textColor="@color/blue"
                 android:textStyle="bold"/>
         </LinearLayout>
 

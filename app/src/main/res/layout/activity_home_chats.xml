@@ -4,17 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/indigo100"
+    android:background="@color/black"
     tools:context=".homeChats">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottonNvigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/indigo100"
+        android:background="@color/black"
         app:elevation="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:itemIconTint="@color/icon_color"
+        app:itemTextColor="@color/icon_color"
         app:menu="@menu/botton_menu" />
 </androidx.constraintlayout.widget.ConstraintLayout>
